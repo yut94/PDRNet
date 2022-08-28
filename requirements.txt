@@ -1,0 +1,10 @@
+python==3.9.12
+torch==1.11.0
+torchvision==0.12.0
+cudatoolkit==11.3.1
+scikit-image==0.19.3
+scipy==1.9.1
+cupy==11.0.0
+opencv-python==4.6.0.66
+pillow==9.2.0
+progressbar==2.5

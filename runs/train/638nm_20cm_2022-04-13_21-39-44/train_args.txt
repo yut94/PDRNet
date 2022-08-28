@@ -1,0 +1,21 @@
+Training args for "638nm_20cm_2022-04-13_21-39-44".
+--------------------------------------------------
+data_root: ./../dataset/DIV2K/DIV2K_train_HR
+n_channels: 3
+target_size: (1080, 1920)
+roi_size: (800, 1600)
+linearRGB: False
+I2A: False
+batch_size: 4
+workers: 8
+pitch: 6.4e-06
+z: 0.2
+wavelength: 6.380000000000001e-07
+band_limited: True
+adjust_intensity: True
+intensity_factor: 0.38
+EPOCH: 100
+lr: 0.001
+save_dir: ./runs/train
+add_graph: False
+summary: True
